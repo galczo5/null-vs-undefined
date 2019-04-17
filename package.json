@@ -1,0 +1,22 @@
+{
+    "name": "null-vs-undefined",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "01": "mocha ./src/01_falsy.js",
+        "02": "mocha ./src/02_args.js",
+        "03": "node ./src/03_arrays.js",
+        "04": "node ./src/04_objects.js",
+        "05a": "tsc ./src/05_typescript.ts",
+        "05b": "tsc --strictNullChecks ./src/05_typescript.ts",
+        "06": "cat ./src/06_optional.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^6.1.3"
+    }
+}
